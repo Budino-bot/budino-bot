@@ -13,7 +13,7 @@ const handler = async (message, { conn, usedPrefix }) => {
             forwardingScore: 1,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363259442839354@newsletter',
+                newsletterJid: '120363348388824958@newsletter',
                 serverMessageId: '',
                 newsletterName: `${botName}`
             },
