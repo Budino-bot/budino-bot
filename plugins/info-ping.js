@@ -10,7 +10,7 @@ let format = sizeFormatter({
 })
 
 let handler = async (m, { conn, usedPrefix, command }) => {
-  let nomeDelBot = global.db.data.nomedelbot || `𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲`
+  let nomeDelBot = global.db.data.nomedelbot || `𝐁𝐮𝐝𝐢𝐧𝐨`
   let versioneBot = '1.0' // Specifica la versione del bot
   let old = performance.now()
   let neww = performance.now()

@@ -22,5 +22,5 @@ await m.reply('Traduzione ' + result2)
 } catch { 
 await m.reply('errore')    
 }}}
-handler.command = /^(translate|traducir|trad)$/i
+handler.command = /^(translate|traduci|trad)$/i
 export default handler

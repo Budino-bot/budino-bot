@@ -1,7 +1,7 @@
 import { performance } from 'perf_hooks'
 
 let handler = async (m, { conn, usedPrefix }) => {
-  let nomeDelBot = global.db.data.nomedelbot || `𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲`
+  let nomeDelBot = global.db.data.nomedelbot || `𝐁𝐮𝐝𝐢𝐧𝐨`
   
   const messageOptions = {
     contextInfo: {

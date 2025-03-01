@@ -59,7 +59,7 @@ export default handler;
 function generateMenuText(prefix, botName, userCount) {
     return `
     『💬』 ══ •⊰✰⊱• ══ 『💬』
-          𝐔𝐬𝐚 𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲-𝐁𝐨𝐭
+          𝐔𝐬𝐚 𝐁𝐮𝐝𝐢𝐧𝐨-𝐁𝐨𝐭
         
 ⚙  ${prefix}𝐅𝐮𝐧𝐳𝐢𝐨𝐧𝐢
 📥  ${prefix}𝐈𝐧𝐬𝐭𝐚𝐥𝐥𝐚
@@ -73,7 +73,7 @@ function generateMenuText(prefix, botName, userCount) {
     『💬』 ══ •⊰✰⊱• ══ 『💬』
 
 𝐔𝐭𝐞𝐧𝐭𝐢: ${userCount}
-𝐀𝐮𝐭𝐨𝐫𝐞: 𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲
+𝐀𝐮𝐭𝐨𝐫𝐞: 𝐁𝐮𝐝𝐢𝐧𝐨
 𝐕𝐞𝐫𝐬𝐢𝐨𝐧𝐞: 1.0
 𝐃𝐚𝐭𝐚: ${new Date().toLocaleDateString()}
 

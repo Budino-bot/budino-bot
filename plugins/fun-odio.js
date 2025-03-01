@@ -1,5 +1,5 @@
 let handler = async (m, { conn, command, text }) => {
-    let nomeDelBot = global.db.data.nomedelbot || `𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲`
+    let nomeDelBot = global.db.data.nomedelbot || `𝐁𝐮𝐝𝐢𝐧𝐨`
   
     let love = `──────────────\n𝐂𝐀𝐋𝐂𝐎𝐋𝐀𝐓𝐎𝐑𝐄 𝐃𝐈 𝐎𝐃𝐈𝐎 😡
   L'odio tra ${text} e te: ${Math.floor(Math.random() * 100)}%\n──────────────`.trim()

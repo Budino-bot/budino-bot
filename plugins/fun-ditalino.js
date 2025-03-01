@@ -2,7 +2,7 @@ import { performance } from 'perf_hooks'
 
 let handler = async (m, { conn, text }) => {
   // Get bot name from database or use default
-  let nomeDelBot = global.db.data.nomedelbot || `𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲`
+  let nomeDelBot = global.db.data.nomedelbot || `𝐁𝐮𝐝𝐢𝐧𝐨`
 
   // Animation messages
   let messages = [

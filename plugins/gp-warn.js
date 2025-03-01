@@ -8,7 +8,7 @@ let handler = async (m, { conn, text, args, groupMetadata, usedPrefix, command }
   
   let warn = global.db.data.users[who].warn
   let user = global.db.data.users[who]
-  let nomeDelBot = global.db.data.nomedelbot || `𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲`
+  let nomeDelBot = global.db.data.nomedelbot || `𝐁𝐮𝐝𝐢𝐧𝐨`
 
   const messageOptions = {
     contextInfo: {
